@@ -34,7 +34,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe-split"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "javascript"
