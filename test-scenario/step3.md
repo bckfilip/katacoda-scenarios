@@ -3,7 +3,7 @@ Docker is a tool that allows the packaging of an application, with its dependenc
 The wiki definition:
 
 >an open-source project that automates the deployment of software applications inside containers by <
->providing an additional layer of abstraction and automation of OS-level virtualization on Linux.
+providing an additional layer of abstraction and automation of OS-level virtualization on Linux.
 
 The strength of deploying an application via a container compared to a VM is that it is lightweight - it provides most of the same isolation as a VM but at a fraction of the cost.
 
