@@ -23,3 +23,4 @@ commands:
 'docker ps' - lists all currently running containers (flag -a show previously ran containers)
 'docker rm' - removes containers by specifying their ID
 'docker stop' - stops a detached container
+'docker exec' - runs a command inside an active container
