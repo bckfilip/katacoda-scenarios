@@ -28,7 +28,7 @@
 
 
 
-`
+```
 'use strict';
 
 const express = require('express');
@@ -47,4 +47,4 @@ app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 
 
-`{{copy}}
+```{{copy}}
