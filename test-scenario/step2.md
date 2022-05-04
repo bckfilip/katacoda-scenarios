@@ -1,34 +1,29 @@
-`mkdir app`{{copy}}
+Firstly we need to make a directory for our project, we call it app.
 
-`cd app`{{copy}}
+`mkdir app`{{execute}}
 
-`touch package.json`{{copy}}
+Now we enter the directory
 
-`
-{
-  "name": "dockerApp",
-  "version": "1.0.0",
-  "description": "NodeExpress with Docker",
-  "author": "First Last <first.last@example.com>",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "express": "^4.16.1"
-  }
-}
-`{{copy}}
+`cd app`{{execute}}
 
+While in the directory we create a new file called package.json. A json file is used within a node project to set predefined dependencies for the project.
+`touch package.json`{{execute}}
+
+In the json-file, set a name and initial version number of your project along with a description of your app. Then change the placeholder author to your name and email address. Further, set main to the same name as the file running your server, as well as setting the start script and express dependencies.
+
+`{ "name": "dockerApp", "version": "1.0.0", "description": "NodeExpress with Docker", "author": "First Last <first.last@example.com>", "main": "app.js", "scripts": { "start": "node app.js" }, "dependencies": { "express": "^4.16.1" } }`{{copy}}
+
+Now we will run npm install to set up the project with npm. This will install all the dependencies we have specified in the package.json
 
 `npm install`{{execute}}
 
-`touch app.js`{{copy}}
+Now we will create the main server through the file app.js. It is important to give the file the same name as declared in package.json.
 
+`touch app.js`{{execute}}
 
+Add this code to the app.js.
 
-
-`
+```javascript
 'use strict';
 
 const express = require('express');
@@ -48,3 +43,8 @@ console.log(`Running on http://${HOST}:${PORT}`);
 
 
 `{{copy}}
+```
+
+Running npm start in terminal will then show: Running on http://0.0.0.0:8080
+
+We have now set up a basic node express server and can proceed to the next part of this tutorial, using our server with docker.
