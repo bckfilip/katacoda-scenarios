@@ -62,7 +62,7 @@ console.log(`Running on http://${HOST}:${PORT}`);
 
 ```{{copy}}
 
-Running npm start in the terminal will then show: "Running on \http://0.0.0.0:8080"
+Running npm start in the terminal will then show: "Running on http://0.0.0.0:8080"
 
 
 We have now set up a basic node express server and can proceed to the next part of this tutorial, using our server with docker. 
