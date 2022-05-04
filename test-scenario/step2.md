@@ -21,7 +21,7 @@
 `{{copy}}
 
 
-`npm install`{{excecute}}
+`npm install`{{execute}}
 
 `touch app.js`{{copy}}
 
