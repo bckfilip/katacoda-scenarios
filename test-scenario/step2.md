@@ -34,7 +34,7 @@ Now we will create the main server through the file app.js. It is important to g
 
 Add this code to the app.js.
 
-```javascript
+<pre class="file" data-target="clipboard"> {
 'use strict';
 
 const express = require('express');
@@ -52,8 +52,8 @@ app.get('/', (req, res) => {
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 
-`{{copy}}
-```
+} 
+</pre>
 
 Running npm start in terminal will then show: Running on http://0.0.0.0:8080
 
