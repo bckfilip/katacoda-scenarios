@@ -1,8 +1,8 @@
-`mkdir app`{{copy}}
+`mkdir app`{{execute}}
 
-`cd app`{{copy}}
+`cd app`{{execute}}
 
-`touch package.json`{{copy}}
+`touch package.json`{{execute}}
 
 ` 
 {
@@ -23,7 +23,7 @@
 
 `npm install`{{execute}}
 
-`touch app.js`{{copy}}
+`touch app.js`{{execute}}
 
 
 
