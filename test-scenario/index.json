@@ -41,7 +41,7 @@
   "environment": {
     "hidefinish": true,
     "hideHiddenFiles": true,
-    "uilayout": "editor-terminal",
+    "uilayout": "vscode-terminal-split",
     "uisettings": "javascript",
     "uieditorpath": "/root/example"
   },
