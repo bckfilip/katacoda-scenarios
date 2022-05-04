@@ -32,7 +32,7 @@ Now we will run npm install to set up the project with npm. This will install al
 
 `npm install`{{execute}}
 
-Now it is time to create the Node express server. We start out by creating the the file app.js. 
+Now it is time to create the Node express server. We start out by creating the the file app.js, this has to be the same name as you declared as main in the package.json. 
 
 
 `touch app.js`{{execute}}
