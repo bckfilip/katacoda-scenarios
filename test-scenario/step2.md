@@ -11,7 +11,18 @@ While in the directory we create a new file called package.json. A json file is 
 
 In the json-file, set a name and initial version number of your project along with a description of your app. Then change the placeholder author to your name and email address. Further, set main to the same name as the file running your server, as well as setting the start script and express dependencies.
 
-`{ "name": "dockerApp", "version": "1.0.0", "description": "NodeExpress with Docker", "author": "First Last <first.last@example.com>", "main": "app.js", "scripts": { "start": "node app.js" }, "dependencies": { "express": "^4.16.1" } }`{{copy}}
+<pre class="file" data-target="clipboard">
+{ 
+  "name": "dockerApp", 
+  "version": "1.0.0", 
+  "description": "NodeExpress with Docker", 
+  "author": "First Last <first.last@example.com>", 
+  "main": "app.js", 
+  "scripts": { "start": "node app.js" }, 
+  "dependencies": { "express": "^4.16.1" } 
+}
+</pre>
+
 
 Now we will run npm install to set up the project with npm. This will install all the dependencies we have specified in the package.json
 
@@ -40,7 +51,6 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
-
 
 `{{copy}}
 ```
