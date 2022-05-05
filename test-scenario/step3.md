@@ -12,7 +12,7 @@ The container allows for an abstraction from the environment the application is 
 
 In order to deploy our server with docker we first need to create an file called Dockerfile:
 
-`touch Dockerfile`{{execute}
+`touch Dockerfile`{{execute}}
 
 This Dockerfile can be seen as a configuration file for our Docker setup. The file will contain 6 different commands:
 - FROM : Specifies the base image. An image in Docker can be seen as the blueprint of the application which forms the bases of a container.
@@ -49,6 +49,8 @@ CMD [ "node", "app.js" ]
 </pre>
 
 In addition to this, we are going to add a .dockerignore file which ignores the copying of local modules and debug files
+
+`touch .dockerignore`{{execute}}
 
 <pre class="file" data-target="clipboard">
 node_modules

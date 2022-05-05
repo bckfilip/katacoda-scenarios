@@ -1,4 +1,8 @@
-Firstly we need to make a directory for our project, we call it app.
+We first need to CD into the directory
+
+`cd example`{{execute}}
+
+First we need to make a directory for our project, we call it app.
 
 `mkdir app`{{execute}}
 
