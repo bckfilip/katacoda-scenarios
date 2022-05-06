@@ -37,11 +37,11 @@
   "environment": {
     "hidefinish": true,
     "hideHiddenFiles": true,
-    "uilayout": "vscode-terminal-split",
+    "uilayout": "editor-terminal",
     "uisettings": "javascript",
     "uieditorpath": "/root/example"
   },
   "backend": {
-    "imageid": "javascript"
+    "imageid": "ubuntu:2004"
   }
 }
