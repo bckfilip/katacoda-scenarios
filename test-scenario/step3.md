@@ -73,7 +73,7 @@ The `-d` flag allows us to run the container in a detached mode, allowing it to 
 
 Finally, we can call our application using the `curl` command to retrieve info about or application to the terminal.
 
-`curl -i localhost:49160`
+`curl -i localhost:49160`{{execute}}
 
 In the last section, we used a lot of Docker-specific jargon which might be confusing to some. So before we go further, let me clarify some terminology that is used frequently in the Docker ecosystem.
 
