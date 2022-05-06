@@ -37,7 +37,7 @@
   "environment": {
     "hidefinish": true,
     "hideHiddenFiles": true,
-    "uilayout": "editor-terminal-split",
+    "uilayout": "editor-terminal",
     "uisettings": "javascript",
     "uieditorpath": "/root/example"
   },
