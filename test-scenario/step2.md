@@ -2,7 +2,7 @@ We first need to CD into the directory
 
 `cd example`{{execute}}
 
-First we need to make a directory for our project, we call it app.
+Then we need to make a directory for our project, let's call it app.
 
 `mkdir app`{{execute}}
 
@@ -62,3 +62,5 @@ console.log(`Running on http://${HOST}:${PORT}`);
 Running npm start in terminal will then show: Running on http://0.0.0.0:8080
 
 We have now set up a basic node express server and can proceed to the next part of this tutorial, using our server with docker.
+
+Please type `ctrl + c`{{execute}} before going to the next step, to ensure all commands run as they should.
