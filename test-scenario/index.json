@@ -42,6 +42,6 @@
     "uieditorpath": "/root/example"
   },
   "backend": {
-    "imageid": "javascript"
+    "imageid": "ubuntu:2004"
   }
 }
