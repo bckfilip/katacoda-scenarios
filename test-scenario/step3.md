@@ -85,4 +85,6 @@ While a .ignore file is good practice it won't be necesary in this specific tuto
 
 Now that the Dockerfile is in place, we can head over the next section which will show how to dockerize the application.
 
+### Links 
+If you are interested in reading more about Docker commands please visit [Docker Desktop](https://docs.docker.com/desktop/).
 
