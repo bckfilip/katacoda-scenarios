@@ -41,7 +41,7 @@ In order to deploy our server with docker we first need to create a Dockerfile:
 This Dockerfile can be seen as a configuration file for our Docker setup. The file will contain 6 different commands:
 - FROM : Specifies the base image. An image in Docker can be seen as the blueprint of the application which forms the bases of a container.
 - WORKDIR : Sets the working directory for the application.
-- COPY : Copies existing files to the working directory.
+- COPY : Copies existing files to the image at run-time.
 - RUN : Runs a command in a container. Allows for the override / addition of the image defaults.
 - EXPOSE : Specifies the network port(s) the container should listen to at runtime.
 - CMD : Provides defaults for an executing container.
