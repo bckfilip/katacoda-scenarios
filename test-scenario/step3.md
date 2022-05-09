@@ -34,7 +34,7 @@ commands:
 
 Moving on to the files..
 
-In order to deploy our server with docker we first need to create an file called Dockerfile:
+In order to deploy our server with docker we first need to create a Dockerfile:
 
 `touch Dockerfile`{{execute}}
 
@@ -84,4 +84,5 @@ npm-debug.log
 While a .ignore file is good practice it won't be necesary in this specific tutorial.
 
 Now that the Dockerfile is in place, we can head over the next section which will show how to dockerize the application.
+
 

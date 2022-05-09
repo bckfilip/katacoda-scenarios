@@ -1,4 +1,4 @@
-We first need to CD into the directory
+Starting off we first need to CD into the correct directory
 
 `cd example`{{execute}}
 
@@ -11,9 +11,10 @@ Now we enter the directory
 `cd app`{{execute}}
 
 While in the directory we create a new file called package.json. A json file is used within a node project to set predefined dependencies for the project.
+
 `touch package.json`{{execute}}
 
-In the json-file, set a name and initial version number of your project along with a description of your app. Then change the placeholder author to your name and email address. Further, set main to the same name as the file running your server, as well as setting the start script and express dependencies.
+In this json-file, set a name and initial version number of your project along with a description of your app. Then change the placeholder author to your name and email address. Further, set main to the same name as the file running your server, as well as setting the start script and express dependencies.
 
 <pre class="file" data-target="clipboard">
 { 
