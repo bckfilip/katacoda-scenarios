@@ -13,11 +13,10 @@ https://en.wikipedia.org/wiki/Node.js
 
 # Learning outcomes
 
-- How to set up Node express and its dependencies
-- How to set up a Docker file with basic configurations
-- How to create a Docker image
-- Basic docker commands and what they are for
-- how to.. In this tutorial we will show you how to set up a docker image for a node express application.
+- How to set up Node express and its dependencies.
+- How to set up a Docker file with basic configurations.
+- How to create a Docker image.
+- Learn about basic docker commands and what they are for.
 
 # Why does it mattter to DevOps?
 
