@@ -1,13 +1,15 @@
+# Creating a docker image?
+
 Docker is a tool that allows the packaging of an application, with its dependencies, into a standardized environment for software development. The application is deployed in a container, sometimes called a sandbox, which enables it to be run on the hosts OS.
 
 The wiki definition:
 
->an open-source project that automates the deployment of software applications inside containers by
-providing an additional layer of abstraction and automation of OS-level virtualization on Linux.
+> an open-source project that automates the deployment of software applications inside containers by
+> providing an additional layer of abstraction and automation of OS-level virtualization on Linux.
 
 The strength of deploying an application via a container compared to a VM is that it is lightweight - it provides most of the same isolation as a VM but at a fraction of the cost.
 
-The container allows for an abstraction from the environment the application is run in, making for an easy deployment regardless of the target environment. 
+The container allows for an abstraction from the environment the application is run in, making for an easy deployment regardless of the target environment.
 
 In this section, we will use a lot of Docker-specific terms which might be confusing to some. So let's clarify some terminology that is used before we dive in.
 
@@ -17,7 +19,7 @@ Containers - Created from Docker images and run the actual application. We creat
 
 Docker Daemon - The background service running on the host that manages building, running and distributing Docker containers. The daemon is the process that runs in the operating system which clients talk to.
 
-commands:
+# commands:
 
 'docker images' - lists all images on your system.
 
@@ -31,14 +33,14 @@ commands:
 
 'docker exec' - runs a command inside an active container
 
-
-Moving on to the files..
+# Moving on to the files..
 
 In order to deploy our server with docker we first need to create a Dockerfile:
 
 `touch Dockerfile`{{execute}}
 
 This Dockerfile can be seen as a configuration file for our Docker setup. The file will contain 6 different commands:
+
 - FROM : Specifies the base image. An image in Docker can be seen as the blueprint of the application which forms the bases of a container.
 - WORKDIR : Sets the working directory for the application.
 - COPY : Copies existing files to the image at run-time.
@@ -85,6 +87,6 @@ While a .ignore file is good practice it won't be necesary in this specific tuto
 
 Now that the Dockerfile is in place, we can head over the next section which will show how to dockerize the application.
 
-### Links 
-If you are interested in reading more about Docker commands please visit [Docker Desktop](https://docs.docker.com/desktop/).
+### Links
 
+If you are interested in reading more about Docker commands please visit [Docker Desktop](https://docs.docker.com/desktop/).

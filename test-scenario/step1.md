@@ -13,12 +13,14 @@ https://en.wikipedia.org/wiki/Node.js
 
 # Learning outcomes
 
-- How to set up Node express
-- How to set up a basic Docker.yaml document with basic configurations
-- How to create a docker image
+- How to set up Node express and its dependencies
+- How to set up a Docker file with basic configurations
+- How to create a Docker image
+- Basic docker commands and what they are for
 - how to.. In this tutorial we will show you how to set up a docker image for a node express application.
 
 # Why does it mattter to DevOps?
 
-- A docker container requires less computing power than a regluar VM, which means any maching will reduce its cpu usage with docker
--
+- A docker container requires less computing power than a regluar VM, which means any machine will reduce its cpu usage with docker
+- Docker makes it simpler, easier and safer to manage containers
+- Avoids machine/environment dependent errors in the application.

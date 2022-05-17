@@ -1,3 +1,5 @@
+# Creating a Node applictaion
+
 Starting off we first need to CD into the correct directory
 
 `cd example`{{execute}}
@@ -27,7 +29,6 @@ In this json-file, set a name and initial version number of your project along w
   "dependencies": { "express": "^4.16.1" } 
 }
 </pre>
-
 
 Now we will run npm install to set up the project with npm. This will install all the dependencies we have specified in the package.json
 
