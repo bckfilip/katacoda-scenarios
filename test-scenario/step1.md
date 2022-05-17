@@ -1,5 +1,3 @@
-#
-
 # Docker
 
 The Docker technology is a tool that simplifies the process of building and containerizing your applications, putting together source code, OS libraries and dependencies specific for the project in question avoiding redundant functionality.
