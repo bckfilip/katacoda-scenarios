@@ -1,4 +1,4 @@
-# Creating a docker image?
+# Creating a docker image
 
 Docker is a tool that allows the packaging of an application, with its dependencies, into a standardized environment for software development. The application is deployed in a container, sometimes called a sandbox, which enables it to be run on the hosts OS.
 
@@ -11,6 +11,8 @@ The strength of deploying an application via a container compared to a VM is tha
 
 The container allows for an abstraction from the environment the application is run in, making for an easy deployment regardless of the target environment.
 
+## Docker terminology
+
 In this section, we will use a lot of Docker-specific terms which might be confusing to some. So let's clarify some terminology that is used before we dive in.
 
 Images - The blueprints of our application which form the basis of containers.
@@ -19,7 +21,7 @@ Containers - Created from Docker images and run the actual application. We creat
 
 Docker Daemon - The background service running on the host that manages building, running and distributing Docker containers. The daemon is the process that runs in the operating system which clients talk to.
 
-# commands:
+# Commands
 
 'docker images' - lists all images on your system.
 
