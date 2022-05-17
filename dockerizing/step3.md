@@ -15,25 +15,25 @@ The container allows for an abstraction from the environment the application is 
 
 In this section, we will use a lot of Docker-specific terms which might be confusing to some. So let's clarify some terminology that is used before we dive in.
 
-Images - The blueprints of our application which form the basis of containers.
+**Images** - The blueprints of our application which form the basis of containers.
 
-Containers - Created from Docker images and run the actual application. We create a container using 'docker run'. A list of running containers can be seen using the 'docker ps' command.
+**Containers** - Created from Docker images and run the actual application. We create a container using 'docker run'. A list of running containers can be seen using the 'docker ps' command.
 
-Docker Daemon - The background service running on the host that manages building, running and distributing Docker containers. The daemon is the process that runs in the operating system which clients talk to.
+**Docker Daemon** - The background service running on the host that manages building, running and distributing Docker containers. The daemon is the process that runs in the operating system which clients talk to.
 
 # Commands
 
-'docker images' - lists all images on your system.
+**Docker images** - lists all images on your system.
 
-'docker run' - the Docker client finds the specified image, loads up the container and then runs a command in that container. (flag -it attaches an interactive terminal allowing the use of additional commands to be run in a container)
+**Docker run** - the Docker client finds the specified image, loads up the container and then runs a command in that container. (flag -it attaches an interactive terminal allowing the use of additional commands to be run in a container)
 
-'docker ps' - lists all currently running containers (flag -a show previously ran containers)
+**Docker ps** - lists all currently running containers (flag -a show previously ran containers)
 
-'docker rm' - removes containers by specifying their ID
+**Docker rm** - removes containers by specifying their ID
 
-'docker stop' - stops a detached container
+**Docker stop** - stops a detached container
 
-'docker exec' - runs a command inside an active container
+**Docker exec** - runs a command inside an active container
 
 # Moving on to the files..
 
