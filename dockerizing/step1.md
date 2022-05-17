@@ -20,6 +20,8 @@ https://en.wikipedia.org/wiki/Node.js
 
 # Why does it mattter to DevOps?
 
+![docker](./assets/docker.png)
+
 - A docker container requires less computing power than a regluar VM, which means any machine will reduce its cpu usage with docker allowing for native performance, quick startup sequences and less memory usage.
 - Docker makes it simpler, faster and safer to manage containers
 - Avoids machine/environment dependent errors in the application.
