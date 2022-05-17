@@ -1,8 +1,10 @@
+#
+
 # Docker
 
-The Docker technology is a tool that simplifies the process of building and containerizing your applications, putting together source code, OS libraries and dependencies specific for the project in question.
+The Docker technology is a tool that simplifies the process of building and containerizing your applications, putting together source code, OS libraries and dependencies specific for the project in question avoiding redundant functionality.
 
-Docker is a great way for any organization to set up a controlled environment for development of an application since using docker, enables developers to run any project with the exact same outcome within the same environment on any machine simply through containerizing the application with docker.
+Docker is therefore a great way for any organization to set up a controlled environment for development of an application. It enables developers to run any project with the exact same outcome on any machine simply through containerizing the application.
 
 # Node.js
 
@@ -21,6 +23,6 @@ https://en.wikipedia.org/wiki/Node.js
 
 # Why does it mattter to DevOps?
 
-- A docker container requires less computing power than a regluar VM, which means any machine will reduce its cpu usage with docker
-- Docker makes it simpler, easier and safer to manage containers
+- A docker container requires less computing power than a regluar VM, which means any machine will reduce its cpu usage with docker allowing for native performance, quick startup sequences and less memory usage.
+- Docker makes it simpler, faster and safer to manage containers
 - Avoids machine/environment dependent errors in the application.
