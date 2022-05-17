@@ -1,4 +1,4 @@
-# Creating a docker image
+# What is docker?
 
 Docker is a tool that allows the packaging of an application, with its dependencies, into a standardized environment for software development. The application is deployed in a container, sometimes called a sandbox, which enables it to be run on the hosts OS.
 
