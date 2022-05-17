@@ -1,11 +1,9 @@
-
 # Docker CLI
 
 The interactive terminal to the right is launched with ubuntu, enabling us to use Docker from the terminal. The Docker CLI allows us to run Docker commands from the terminal without need need for a DockerHub account or similar.
 
 # Createing a docker image
 
- 
 As the Dockerfiles are in place from the previous section, we can use the `build` command to build our image. We are attaching a flag to the command, `-t` , which allows us to tag the image making it easier for us to identfy it.
 
 `docker build . -t app`{{execute}}
