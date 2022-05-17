@@ -12,6 +12,8 @@ Now we enter the directory
 
 `cd app`{{execute}}
 
+## Package.json
+
 While in the directory we create a new file called package.json. A json file is used within a node project to set predefined dependencies for the project.
 
 `touch package.json`{{execute}}
@@ -33,6 +35,8 @@ In this json-file, set a name and initial version number of your project along w
 Now we will run npm install to set up the project with npm. This will install all the dependencies we have specified in the package.json
 
 `npm install`{{execute}}
+
+## Express server
 
 Now we will create the main server through the file app.js. It is important to give the file the same name as declared in package.json.
 
